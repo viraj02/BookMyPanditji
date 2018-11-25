@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#f4bf2e</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#ff2499</color>
+
+    <color name="checkbox">#120bcf</color>
+    <color name="button">#9dcce9</color>
+    <color name="heading">#a96d06</color>
+</resources>

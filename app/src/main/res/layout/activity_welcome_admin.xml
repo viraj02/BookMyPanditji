@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.virajjoshi.bookmypanditji.WelcomeAdmin">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome Admin..."
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:id="@+id/textView7" />
+
+    <Button
+        android:id="@+id/orders"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="27dp"
+        android:onClick="OrdersSummary"
+        android:text="Orders"
+        android:layout_below="@+id/signout"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="36dp"
+        android:onClick="PanditProfile"
+        android:text="Pandit Profile"
+        android:layout_below="@+id/orders"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/deleteaccount"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/button2"
+        android:layout_marginTop="41dp"
+        android:onClick="Delete"
+        android:text="delete account" />
+
+    <Button
+        android:id="@+id/signout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Sign Out"
+        android:onClick="signOut"
+        android:layout_marginTop="19dp"
+        android:layout_below="@+id/textView7"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>

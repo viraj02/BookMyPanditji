@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.virajjoshi.bookmypanditji.DelAccAdmin">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="After Deleting your Account. It cannot access again."
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="42dp"
+        android:id="@+id/textView12"
+        android:layout_below="@+id/deletelogin"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textStyle="bold"
+        android:textSize="45sp"
+        android:text="Delete Account"
+        android:gravity="center"
+        android:textColor="#ce070b"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView11" />
+
+    <EditText
+        android:id="@+id/emaildelete"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="22sp"
+        android:hint="Email ID"
+        android:layout_marginTop="36dp"
+        android:layout_below="@+id/textView11"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/passworddelete"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textSize="22sp"
+        android:layout_marginTop="19dp"
+        android:layout_below="@+id/emaildelete"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/deletelogin"
+        android:text="Login"
+        android:textColor="#0f12c6"
+        android:background="#92d68f"
+        android:textSize="22dp"
+        android:onClick="SignInnDelete"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/deleteacc"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Delete Account"
+        android:textStyle="bold"
+        android:textSize="22dp"
+        android:onClick="deleteAccount"
+        android:background="#c367c9dc"
+        android:textColor="#de0513"
+        android:layout_below="@+id/textView12"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="44dp" />
+
+</RelativeLayout>

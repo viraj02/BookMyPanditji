@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "835445000184",
+    "firebase_url": "https://bookmypanditji-93e79.firebaseio.com",
+    "project_id": "bookmypanditji-93e79",
+    "storage_bucket": "bookmypanditji-93e79.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:835445000184:android:8ecb120743300cbd",
+        "android_client_info": {
+          "package_name": "com.example.virajjoshi.bookmypanditji"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "835445000184-l0noqqiqbcrqdtehbe6sd01tunvk3ihb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.virajjoshi.bookmypanditji",
+            "certificate_hash": "ceb5864840fea0318e0af6c3afa14461395016c1"
+          }
+        },
+        {
+          "client_id": "835445000184-haehqpnmsjn1jvpslfnbmtfmctmknenc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgPgd-7XkpFfndT1mrjqtuVnf-nFONr7I"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "835445000184-haehqpnmsjn1jvpslfnbmtfmctmknenc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

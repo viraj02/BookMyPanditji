@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.virajjoshi.bookmypanditji.PanditRegistartion">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pandit Registration"
+        android:textColor="#a96d06"
+        android:textStyle="italic"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Title"
+        android:id="@+id/textView3"
+        android:textSize="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EmailID"
+        android:textSize="20dp"
+
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Title"
+        android:id="@+id/textView5"
+        android:layout_alignBaseline="@+id/emailText"
+        android:layout_alignBottom="@+id/emailText"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/emailText"
+
+        android:layout_width="273dp"
+        android:layout_height="48dp"
+        android:hint="example@gmail.com"
+        android:inputType="textEmailAddress"
+
+        android:textSize="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/imageView2"
+        android:layout_alignParentEnd="true" />
+
+
+    <Button
+        android:id="@+id/termcButton"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+
+        android:background="@null"
+        android:text="Accept The Terms And Conditions"
+        android:textColor="#ca2533ac"
+        android:layout_below="@+id/passwordText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp" />
+
+
+    <Button
+        android:id="@+id/createaccButton"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:onClick="Validate"
+        android:text="Register"
+        android:textStyle="bold"
+        android:background="#9dcce9"
+        android:textColor="#000000"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Title"
+        android:layout_below="@+id/termcButton"
+        android:layout_alignEnd="@+id/termcButton"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/passwordText"
+        android:layout_width="251dp"
+        android:layout_height="50dp"
+        android:hint="password"
+        android:inputType="textPassword"
+        android:textSize="25dp"
+
+
+        android:layout_marginTop="11dp"
+        android:layout_below="@+id/emailText"
+        android:layout_alignParentEnd="true"
+        android:layout_alignStart="@+id/emailText" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Title"
+        android:textSize="20dp"
+        android:layout_alignBaseline="@+id/passwordText"
+        android:layout_alignBottom="@+id/passwordText"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_marginTop="18dp"
+        android:src="@drawable/regpandit"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true" />
+
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignBottom="@+id/termcButton"
+        android:layout_marginEnd="8dp"
+        android:layout_toStartOf="@+id/termcButton" />
+
+    <Button
+        android:id="@+id/buttonupdateinfo"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:onClick="update"
+        android:textStyle="italic"
+        android:background="#9dcce9"
+        android:text="Update pandit details"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="9dp" />
+
+    <Button
+        android:id="@+id/AreYouPandit"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Have Account As User ?"
+        android:onClick="AreYouPandit"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:background="#3b449944"
+        android:layout_marginBottom="8dp"
+        android:layout_above="@+id/buttonupdateinfo"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>

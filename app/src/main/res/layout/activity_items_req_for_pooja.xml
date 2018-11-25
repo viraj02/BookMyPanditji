@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.virajjoshi.bookmypanditji.ItemsReqForPooja">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Items Required For Pooja"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="20dp"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@drawable/ganpati"
+                />
+
+            <Button
+                android:id="@+id/Ganpati"
+                android:onClick="GanpatiA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ganpati Pooja"/>
+
+
+       </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+
+                android:src="@drawable/satyanarayan"
+                android:layout_width="match_parent"
+                android:layout_height="150dp" />
+
+            <Button
+                android:id="@+id/satyanarayan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="SatyaA"
+                android:text="Satyanarayan"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:src="@drawable/grihap"
+                android:layout_width="match_parent"
+                android:layout_height="150dp" />
+
+            <Button
+                android:id="@+id/GrihaP"
+                android:onClick="GhrihaA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Griha Pravesh Pooja"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@drawable/durga"
+                />
+            <Button
+                android:id="@+id/Durga"
+                android:onClick="DurgaA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Durga Pooja"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:src="@drawable/lakshmi"
+                android:layout_width="match_parent"
+                android:layout_height="150dp" />
+
+            <Button
+                android:id="@+id/Lakshmi"
+                android:onClick="LakshmiA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lakshmi Pooja"/>
+
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:src="@drawable/visnupooja"
+                android:layout_width="match_parent"
+                android:layout_height="150dp" />
+
+            <Button
+                android:id="@+id/Vishnu"
+                android:onClick="VishnuA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Vishnu Pooja"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

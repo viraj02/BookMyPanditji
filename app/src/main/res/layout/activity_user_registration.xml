@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.virajjoshi.bookmypanditji.UserRegistration">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create Account"
+        android:textColor="#a96d06"
+        android:textStyle="italic"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Title"
+        android:id="@+id/textView3"
+        android:textSize="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EmailID"
+        android:textSize="20dp"
+
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Title"
+        android:id="@+id/textView5"
+        android:layout_alignBaseline="@+id/emailText"
+        android:layout_alignBottom="@+id/emailText"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/emailText"
+
+        android:layout_width="273dp"
+        android:layout_height="48dp"
+        android:hint="example@gmail.com"
+        android:inputType="textEmailAddress"
+        android:drawableLeft="@drawable/ic_account_circle_black_24dp"
+        android:textSize="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/imageView2"
+        android:layout_alignParentEnd="true" />
+
+
+    <Button
+        android:id="@+id/termcButton"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_below="@+id/passwordText"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="7dp"
+        android:background="@null"
+        android:hint="Accept The Terms And Conditions"
+        android:text="Accept The Terms And Conditions"
+        android:textColor="#ca2533ac" />
+
+    <Button
+        android:id="@+id/haveaccountButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="HaveAc"
+        android:text="Have Account? Sign In"
+        android:background="@null"
+        android:textStyle="italic"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Title"
+        android:layout_below="@+id/createaccButton"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/createaccButton"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:onClick="Validate"
+        android:text="Create New Account"
+        android:textStyle="bold"
+        android:background="#9dcce9"
+        android:textColor="#000000"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Title"
+        android:layout_marginTop="19dp"
+        android:layout_below="@+id/termcButton"
+        android:layout_alignStart="@+id/textView3" />
+
+    <EditText
+        android:id="@+id/passwordText"
+        android:layout_width="251dp"
+        android:layout_height="50dp"
+        android:hint="password"
+        android:inputType="textPassword"
+        android:textSize="25dp"
+        android:drawableLeft="@drawable/ic_fingerprint_black_24dp"
+
+        android:layout_below="@+id/textView5"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="21dp"
+        android:layout_toEndOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Title"
+        android:textSize="20dp"
+        android:layout_alignBaseline="@+id/passwordText"
+        android:layout_alignBottom="@+id/passwordText"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_marginTop="13dp"
+        app:srcCompat="@drawable/logo"
+        android:layout_below="@+id/textView3"
+        android:layout_alignStart="@+id/passwordText" />
+
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:buttonTint="@color/checkbox"
+        android:layout_alignBottom="@+id/termcButton"
+        android:layout_marginEnd="8dp"
+        android:layout_toStartOf="@+id/termcButton" />
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="#bedfcbda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" For Pandit use only"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            android:id="@+id/textView"
+            android:layout_above="@+id/buttonPanditReg"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:id="@+id/buttonPanditReg"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginBottom="19dp"
+            android:background="#9dcce9"
+            android:onClick="Reg"
+            android:text="Pandit Registration"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
+
+

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.virajjoshi.bookmypanditji">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logoo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashScreen"> <!-- UserRegistration -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".UserLogin" />
+        <!--
+        <activity android:name=".VerifyPandit" />
+        <activity android:name=".EmailVerification" />
+        -->
+
+        <activity android:name=".WelcomeUser" />
+        <activity android:name=".Video" />
+        <activity android:name=".PanditBooking" />
+        <activity android:name=".ContactUs" />
+        <activity android:name=".AboutUs" />
+        <activity android:name=".UserProfile" />
+        <activity android:name=".MyOrders" />
+        <activity android:name=".DeleteUsers" />
+        <activity android:name=".OrderSummary" />
+        <activity android:name=".ShowImagesActivity" />
+        <activity android:name=".ItemsReqForPooja" />
+        <activity android:name=".Ganpati" />
+        <activity android:name=".Satyanarayan" />
+        <activity android:name=".GrihaPravesh" />
+        <activity android:name=".Durga" />
+        <activity android:name=".Lakshmi" />
+        <activity android:name=".Vishnu" />
+        <activity
+            android:name=".VideoAct"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".PanditRegistartion" />
+        <activity android:name=".AdminLogin" />
+        <activity android:name=".WelcomeAdmin" />
+        <activity android:name=".UsersOrdersAll" />
+        <activity android:name=".PanditLogin" />
+        <activity android:name=".PanditDetails" />
+        <activity android:name=".ShowImagesActivityAdmin" />
+        <activity android:name=".UpdatePanditDetails" />
+        <activity android:name=".UserRegistration" />
+        <activity android:name=".DelAccAdmin"></activity>
+    </application>
+
+</manifest>

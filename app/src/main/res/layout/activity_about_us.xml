@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.virajjoshi.bookmypanditji.AboutUs">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="About Us"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:id="@+id/textView16" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/aboutus"
+        android:background="#2821fac8"
+        android:id="@+id/imageView6"
+        android:layout_below="@+id/textView16"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:text="BookMyPanditji is the most trusted online platform for Hindu puja service, Vedic Rituals, Religious Ceremonies and Astrology Services. We provide the India’s well-known, highly qualified and experienced Shastries and Pandits for you who will come to your house and do the puja. "
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:id="@+id/textView6"
+        android:layout_marginTop="19dp"
+        android:layout_below="@+id/imageView6"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

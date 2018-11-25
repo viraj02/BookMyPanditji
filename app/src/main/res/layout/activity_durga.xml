@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.virajjoshi.bookmypanditji.Durga">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Items Required For Durga Pooja"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="70dp">
+
+        <CheckBox
+            android:id="@+id/g1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="Kumkum (Red powder)"/>
+
+        <CheckBox
+            android:id="@+id/g2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Flowers"
+            />
+
+        <CheckBox
+            android:id="@+id/g3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5 Types of Fruits (Mango, Banana, Apple, Orange, Grapes, Pear, and Peach)"/>
+
+        <CheckBox
+            android:id="@+id/g4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nariyal (Coconut)"/>
+
+        <CheckBox
+            android:id="@+id/g5"
+            android:text="Supari (Betalnut)"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <CheckBox
+            android:id="@+id/g6"
+            android:text="Panchamrut"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <CheckBox
+            android:id="@+id/g8"
+            android:text="Sindoor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <CheckBox
+            android:id="@+id/g9"
+            android:text="Gulab jal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <CheckBox
+            android:id="@+id/g10"
+            android:text="Chawal (Rice)"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <CheckBox
+            android:id="@+id/g11"
+            android:text="Kalash made of Silver, Copper or Stainless Steel "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <CheckBox
+            android:id="@+id/g12"
+            android:text="Mithai (Sweets)"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.virajjoshi.bookmypanditji.SplashScreen">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Welcome..."
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textColor="#ef063c"
+        android:textStyle="bold"
+        android:layout_marginTop="35dp"
+        android:id="@+id/textView13"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Book My Pandit"
+        android:textSize="35dp"
+        android:gravity="center"
+        android:textStyle="italic"
+        android:textColor="#ec4415"
+        android:textAllCaps="true"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/textView13"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView14" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Online Pandit Booking App"
+        android:gravity="center"
+        android:layout_below="@+id/textView14"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView15" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/splash"
+        android:id="@+id/imageView8"
+        android:layout_below="@+id/textView15"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="45dp" />
+
+
+
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/progressBar2"
+        android:layout_below="@+id/imageView8"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="60dp" />
+
+
+
+</RelativeLayout>
